@@ -1,0 +1,19 @@
+* {
+    background-image: url('./img/R1-300x250.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+
+@media (max-width: 767px) {
+    * {
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1368px) {
+    * {
+        background-position: center;
+    }
+}

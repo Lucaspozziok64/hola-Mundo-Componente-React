@@ -1,8 +1,8 @@
 const HelloWorld = () => {
   return (
-    <div>
-      <h1>¡¡Hello World!!</h1>
-    </div>
+    <main className="container my-5">
+      <h1 className="text-center text-white">¡¡Hello World!!</h1>
+    </main>
   );
 };
 
